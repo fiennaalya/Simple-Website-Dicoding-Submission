@@ -21,6 +21,7 @@
 ## Implementations and Improvements
 ### 📌 Navigation  and Home Page
 On the top of the website is a navigation bar where the position remains fixed and does not interfere with scrolling behavior.
+<img width="960" alt="image" src="https://github.com/fiennaalya/Simple-Website-Dicoding-Submission/assets/99575596/98fd9b2b-dc5c-466f-9389-1adc95adead7">
 
 ### 📌 About Me Article
 <img width="960" alt="image" src="https://github.com/fiennaalya/Simple-Website-Dicoding-Submission/assets/99575596/e20d5897-0686-4331-8795-4d6036f02eb8">
@@ -31,9 +32,8 @@ On the top of the website is a navigation bar where the position remains fixed a
 ### 📌 Project
 <img width="960" alt="image" src="https://github.com/fiennaalya/Simple-Website-Dicoding-Submission/assets/99575596/b821a94e-73ac-4915-8422-ca24dd82fd1a">
 
-### 📌 Contact
-
-### 📌 Footer
+### 📌 Contact and Footer
+<img width="960" alt="image" src="https://github.com/fiennaalya/Simple-Website-Dicoding-Submission/assets/99575596/98f9f35b-b12f-439f-873c-53b57a2baf13">
 
 ## Results
 #### ⭐⭐⭐⭐⭐ 5 stars achieved! The website resulting the highest score.
