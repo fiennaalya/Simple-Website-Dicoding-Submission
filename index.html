@@ -1,0 +1,209 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shalfienna Alya Khansa Portofolio</title>
+        
+        <link rel="stylesheet" href="app.css">
+          <!-- Font Awesome 5.15.4 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Arima&family=Dancing+Script:wght@400;600&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <header class="navbar-container">
+                <div class="highlight">
+                    <h1>Shalfienna Alya Khansa</h1>
+                </div>
+                <nav class="nav-list">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#professional">Professional</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main>
+            <div class="profile-intro">
+                <h1>Hi, I'm Fienna.<br><span id="typed-text"></span></h1>
+            </div>
+            <script>
+                const text = "I'm a Fresh Graduate with a strong focus on technology and innovation";
+                const typedTextElement = document.getElementById('typed-text');
+                let index = 0;
+            
+                function typeText() {
+                    if (index < text.length) {
+                        typedTextElement.innerHTML += text.charAt(index);
+                        index++;
+                        setTimeout(typeText, 30); // Waktu jeda antara setiap karakter (50ms)
+                    }
+                }
+            
+                typeText(); // Panggil fungsi untuk mulai mengetik teks
+            </script>
+            <article id="home">
+                <img src="img/profile2.jpg" alt="Shalfienna Alya Khansa"/>
+                <div class="about-me card-profile">
+                    <h1>About The Author</h1>
+                    <p>An enthusiast in software engineering and technology with a solid educational background in Biomedical Engineering.
+                        Experience developing an Android application for a university thesis with capabilities to extract audio from a user's phone, playback the audio, and visualize the signal in graphs. 
+                        Alongside the technical specialization, have expertise in communication and team management skills by contributing to several organizations. 
+                        Continuously seeking opportunities to develop a good work ethic and professional networking.
+                    </p>                        
+                    <button>Download CV here →</button>
+                </div>
+            </article>
+            
+            <article id="professional">
+                <div class="professional-intro">
+                    <h1>What I Do?</h1>
+                </div>
+                <header class="what-i-do">
+                    <div class="card">
+                        <h2>Frontend Developer</h2>
+                        <img src="img/software.png" alt="Front End Developer"/>
+                        <p>I started studying mobile development in early 2023 to complete my thesis responsibilities, which I should make an Android app, and gratefully, I got an A for my university thesis. </p>
+                    </div>
+                    <div class="card">
+                        <h2>Machine Learning Engineer</h2>
+                        <img src="img/software.png" alt="Front End Developer"/>
+                        <p>I started studying mobile development in early 2023 to complete my thesis responsibilities, which I should make an Android app, and gratefully, I got an A for my university thesis. </p>
+                    </div>
+                    <div class="card">
+                        <h2>Android Developer</h2>
+                        <img src="img/phone.png" alt="Android Developer"/>
+                        <p>I started studying mobile development in early 2023 to complete my thesis responsibilities, which I should make an Android app, and gratefully, I got an A for my university thesis. </p>
+                    </div>
+                </header>
+
+                <section id="Skill">
+                    <div>
+                        <img src="img/html.png" alt="HTML">
+                        <figcaption>HTML</figcaption>
+                    </div>
+                    <div>
+                        <img src="img/css.png" alt="CSS">
+                        <figcaption>CSS</figcaption>
+                    </div>
+                    <div>
+                        <img src="img/js.png" alt="Javascript">
+                        <figcaption>Javascript</figcaption>
+                    </div>
+                    <div>
+                        <img src="img/python.png" alt="Python">
+                        <figcaption>Python</figcaption>
+                    </div>
+                    <div>
+                        <img src="img/kotlin.png" alt="Kotlin">
+                        <figcaption>Kotlin</figcaption>
+                    </div>
+                </section>
+            </article>
+
+            <article id="project">
+                <div class="project-intro">
+                    <h1>Projects</h1>
+                    <h2>Frontend Project</h2>
+                    <section class="project-content">
+                        <h3>BookShelf Web</h3>
+                        <p>HeartTune is an electronic stethoscope that can connect to Android device applications for signal processing producing first and second heart sound detection. this device was designed utilizing an affordable stethoscope, ranging from Rp.30,000 to Rp.60,000, and transformed into an electronic stethoscope, and has been certified with a creation registration letter authenticated by the Ministry of Law and Human Rights of the Republic of Indonesia.</p>
+                        <div class="lang">
+                            <p>Language:</p>
+                            <div>
+                                <img src="img/kotlin.png" alt="Kotlin">
+                                <figcaption>Kotlin</figcaption>
+                            </div>
+                        </div>
+                        <button>Details →</button>
+                    </section>
+
+                    <section class="project-content">
+                        <h3>GitHub Search App - Dicoding Course Project</h3>
+                        <p>GitHub Search App is the first assignment of dicoding.com 'Belajar Fundamental Aplikasi Android' from the Android developer learning path. This application implements the WebAPI Networking using LoopJ and Parsing JSON</p>
+                        <div class="lang">
+                            <p>Language:</p>
+                            <div>
+                                <img src="img/kotlin.png" alt="Kotlin">
+                                <figcaption>Kotlin</figcaption>
+                            </div>
+                        </div>
+                        <button>Details →</button>
+                    </section>
+
+                    <h2>Android Project</h2>
+                    <section class="project-content">
+                        <h3>HeartTune - Heart Sound Identification App</h3>
+                        <p>HeartTune is an electronic stethoscope that can connect to Android device applications for signal processing producing first and second heart sound detection. this device was designed utilizing an affordable stethoscope, ranging from Rp.30,000 to Rp.60,000, and transformed into an electronic stethoscope, and has been certified with a creation registration letter authenticated by the Ministry of Law and Human Rights of the Republic of Indonesia.</p>
+                        <div class="lang">
+                            <p>Language:</p>
+                            <div>
+                                <img src="img/html.png" alt="HTML">
+                                <figcaption>HTML</figcaption>
+
+                                <img src="img/css.png" alt="HTML">
+                                <figcaption>HTML</figcaption>
+
+                                <img src="img/js.png" alt="HTML">
+                                <figcaption>HTML</figcaption>
+                            </div>
+                        </div>
+                        <button>Details →</button>
+                    </section>
+
+                    <section class="project-content">
+                        <h3>GitHub Search App - Dicoding Course Project</h3>
+                        <p>GitHub Search App is the first assignment of dicoding.com 'Belajar Fundamental Aplikasi Android' from the Android developer learning path. This application implements the WebAPI Networking using LoopJ and Parsing JSON</p>
+                        <div class="lang">
+                            <p>Language:</p>
+                            <div>
+                                <img src="img/kotlin.png" alt="Kotlin">
+                                <figcaption>Kotlin</figcaption>
+                            </div>
+                        </div>
+                        <button>Details →</button>
+                    </section>
+
+                    <h2>Machine Learning Project</h2>
+                    <section class="project-content">
+                        <h3>FreshSnap - Bangkit Academy</h3>
+                        <p>FreshSnap is a shopping companion application expected to help users detect the quality of fruits and vegetables by simply capturing pictures through the camera or uploading pictures stored in the smartphone gallery. After the user captures or uploads the image of a fruit or vegetable, this application will predict the freshness percentage of the fruits and vegetables, how to keep them, and food references based on the prediction. The application also added a location information feature so that all users can find out which market has good quality ingredients and which has bad ones.</p>
+                        <div class="lang">
+                            <p>Language:</p>
+                            <div>
+                                <img src="img/python.png" alt="Python">
+                                <figcaption>Python</figcaption>
+                            </div>
+                        </div>
+                        <button>Details →</button>
+                    </section>
+                </div>
+            </article>
+
+            <aside>
+                <article id="contact">
+                    <img src="img/foto.jpg" alt="Foto Formal Shalfienna">
+                    <div class="contact-opening">
+                        <h2>You can call me Fienna!</h2>
+                        <div class="contact-inti card-contact">
+                            <li><a href="https://www.linkedin.com/in/shalfiennaalyak/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/fiennaalya" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@fiennaalya" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="https://www.youtube.com/@fiennaalya/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        </div>  
+                    </div>                  
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Shalfienna Alya Khansa's Portofolio &#169; 2023, Shalfienna</p>
+        </footer>
+    </body>
+</html>

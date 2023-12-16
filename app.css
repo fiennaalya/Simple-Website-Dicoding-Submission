@@ -1,0 +1,456 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+    max-width: 1500px;
+    height: 100vh;
+    margin-inline: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header.navbar-container {
+    background-color: white;
+    margin-inline: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 999;
+    position:sticky;
+    top: 0;
+  }
+
+  
+
+  header.navbar-container .highlight h1 {
+    font-family: 'Dancing Script',sans-serif; 
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    padding: 5px 150px 5px 150px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+header.navbar-container .nav-list {
+  padding: 5px 150px 5px 150px;
+}
+
+header.navbar-container .nav-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+    padding-left: 0px;
+  }
+
+  header.navbar-container .nav-list li {
+    font-family: 'Alegreya SC',sans-serif; 
+    list-style-type: none;
+  }
+
+  header.navbar-container .nav-list li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 999px;
+    transition: all .2s ease-in-out;
+  }
+   
+  header.navbar-container .nav-list li:hover a {
+    background-color: #d6e6f7;
+    color: blue;
+  }
+
+  header.navbar-container .navlist li a.active {
+    background-color: #d6e6f7;
+    color: blue;
+  }
+
+  main{
+    max-width: 1500px;
+    width: 100%;
+    margin-inline: auto;
+    font-family: 'Quicksand',sans-serif; 
+  }
+  
+  main .profile-intro{
+    padding: 15rem 5rem;
+    font-weight: 400;
+    color: blue;
+  }
+
+  main #home{
+  
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    align-items: center;
+  }
+
+  main #home img{
+    width: 600px;
+    border-radius: 5px;
+  }
+
+  main #home .about-me{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+  }
+
+  main #home .about-me h1{
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  main #home .about-me button{
+    padding: .4rem 1rem;
+    margin-block-start: 1rem;
+    font-size: 15px;
+    color: blue;
+    font-family: 'Quicksand',sans-serif; 
+    font-weight: 400;
+
+    border-radius: 999px;
+    border: 1.5px solid rgba(0, 0, 255, 0.63);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .15s ease-in;
+  }
+
+  main #home .about-me button:hover{
+    background-color: rgba(0, 0, 255, 0.66);
+    border: 1.5px solid rgba(0, 0, 255, 0.66);
+    color: white;
+  }
+
+main .professional-intro{
+    padding-top: 5rem;
+    color: blue;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main header.what-i-do{
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    align-items: center;
+    color: black;
+    font-family: 'Quicksand',sans-serif; 
+    text-align: center;
+}
+
+main header.what-i-do h2{
+    font-size: 20px;
+  }
+
+main header.what-i-do img{
+    width: 100px;
+  }
+
+  .card-profile {
+    height: 457px;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  .card{
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-contact{
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 255, 0.701);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main #Skill{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(214, 236, 252, 0.76);
+    color: blue;
+    border-radius: 999px;
+    margin: 0px 30px 50px 30px;
+    padding: 10px;
+    gap: 2rem 1rem;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  main #Skill img{
+    width: 45px;
+  }
+
+  .project-intro{
+    margin-top: 30px;
+    padding-top: 5rem;
+  }
+
+  .project-intro h1{
+    color: blue;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .project-content{
+    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 2rem;
+    border-radius: 25px;
+    border: 1.5px solid rgba(0, 0, 255, 0.66);
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .project-intro h2{
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color:  black;
+    font-weight: 500;
+  }
+
+  .project-content h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 390;
+    font-size: 20px;
+  }
+
+  .project-content p{
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .lang{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    gap: 1rem;
+    font-size: 13px;
+    flex: 1 1;
+    text-align: center;
+  }
+  .lang img{
+    width: 30px;
+  }
+
+  .project-intro button{
+    margin-top: 25px;
+    padding: .4rem 1rem;
+    font-size: 15px;
+    color: white;
+    font-family: 'Quicksand',sans-serif; 
+    font-weight: 400;
+
+    border-radius: 999px;
+    border: transparent;
+    background-color: rgba(0, 0, 255, 0.66);
+    cursor: pointer;
+    transition: all .15s ease-in;
+  }
+
+  .project-intro button:hover{
+    background-color: #d6e6f7;
+    color: blue;
+  }
+
+  #contact{
+    margin:0px 60px;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px 25px 25px;
+    gap: 30px;
+    font-family: 'Dancing Script',sans-serif; 
+    font-weight: 600;
+    font-size: 20px;
+    color: blue;
+    margin-top: 200px;
+    margin-bottom: 150px;
+  }
+
+  #contact img {
+    width: 200px;
+    border-radius: 50%; 
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-opening{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-inti li {
+    list-style-type: none;
+  }
+
+  .contact-inti li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.contact-inti li a:hover {
+  color: #89b0d9;
+}
+
+
+footer {
+  padding: 5px;
+  color: black;
+  text-align: center;
+  font-family: 'Alegreya SC',sans-serif; 
+}  
+
+@media screen and (max-width: 1030px) {
+  header.navbar-container {
+    background-color: white;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 999;
+    position:sticky;
+    top: 0;
+  }
+
+  main #home{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  main #home img{
+    width: 600px;
+  }
+
+  .card-profile {
+    width: 600px;
+    flex-direction: column;
+    margin: 0px 25px;
+    padding: 0px;
+  }
+
+  .card{
+    margin: 10px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  main header.what-i-do{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header.navbar-container .highlight h1{
+    padding: 5px;
+  }
+
+  header.navbar-container .nav-list {
+    padding: 5px;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+  }
+  
+  
+  main #home img{
+    width: 350px;
+  }
+  
+  .card-profile {
+    width: 350px;
+    flex-direction: column;
+  }
+  
+  #contact{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  #contact img {
+    width: 100px;
+    border-radius: 50%; 
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-opening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-inti li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    transition: all .1s ease-in-out;
+  }
+
+  main #home .about-me button{
+    padding: .1rem 1rem;
+    margin-bottom: 25px;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 375px) {
+  main #home img{
+    width: 250px;
+  }
+  
+  .card-profile {
+    width: 250px;
+    flex-direction: column;
+  }
+
+  .card-profile {
+    height: fit-content;
+    flex-direction: column;
+  }
+}
