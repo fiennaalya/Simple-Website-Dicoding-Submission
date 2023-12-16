@@ -8,7 +8,7 @@
   
 | Program       | Learning Path           | Website Preview       | Certificate of Completion   |
 | ------------- | ------------------------| ------------------------| ------------------------|
-| [ID Camp 2023](https://idcamp.ioh.co.id/) | [Front End Development](https://www.dicoding.com/learningpaths/123) | [Click Here for Simple Portfolio Preview](https://fiennaalya.github.io/Simple-Website-Dicoding-Submission/)| [Dicoding Certificate →](https://www.dicoding.com/certificates/98XWVQ9WJPM3)
+| [ID Camp 2023](https://idcamp.ioh.co.id/) | [Front End Development](https://www.dicoding.com/learningpaths/123) | [Click Here for Simple Portfolio Preview](https://fiennaalya.github.io/Simple-Website-Dicoding-Submission/)| [Dicoding Certificate](https://www.dicoding.com/certificates/98XWVQ9WJPM3)
 
 <p>The Website uses 3 programming languages:</p>
 <p align="center">
