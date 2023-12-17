@@ -1,6 +1,6 @@
 # Dicoding Submission : Creating a Simple Website 
 
-**Simple Website is the final assignment project of the [Belajar Dasar Pemrograman Web](https://www.dicoding.com/academies/123) course from Dicoding.com, with the Front-End learning path. *In this final project I made a simple portfolio website.*** The Website implements the basics of HTML and CSS suing the Flexbox website layout for to get a responsive structure position. The website size was adjusted to accommodate different device sizes, such as handphones, tablets, and laptops. I also add a simple JavaScript code for the website interactivity to get the highest score.
+**Simple Website** is the final assignment project of the [**Belajar Dasar Pemrograman Web**](https://www.dicoding.com/academies/123) course from Dicoding.com, with the Front-End learning path. **In this final project I made a simple portfolio website.** The Website implements the basics of HTML and CSS suing the Flexbox website layout for to get a responsive structure position. The website size was adjusted to accommodate different device sizes, such as handphones, tablets, and laptops. I also add a simple JavaScript code for the website interactivity to get the highest score.
 
 <div align="center">
 
